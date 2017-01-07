@@ -28,6 +28,7 @@ private class Test_Class {
         Account a = new Account(name='myAccount');
 
         insert a;
+           insert b;
 
         Test.setCreatedDate(a.Id, DateTime.newInstance(2012,12,12));
 
